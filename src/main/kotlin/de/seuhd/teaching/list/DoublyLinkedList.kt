@@ -90,6 +90,7 @@ class DoublyLinkedList {
     fun isEmpty(): Boolean {
         return begin == null && end == null && length == 0
     }
+    // New comment as instructed by excercise 1.3 b)
 
     /**
      * Inserts the value of [e] into this list, which must be sorted by [Double.compareTo].
